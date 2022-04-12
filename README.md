@@ -2,19 +2,33 @@
 Post Call with RestTemplate
 
 
-#Post-Api<br>
-url: http://localhost:8081/postRequest 
-request-type: POST
-request-body: 
-  {
-    "user": {
-        "name": "ketul Patel",
-        "email": "p"
-    }
-  }
-
-
-
-#Call-Post-Api
-url: http://localhost:8082?name=ketul&email=pketul@gmail.com
-request-type: GET
+#<b>Information Table</b><br/>
+<table border="2" style="border-collapse: collapse;">
+        <tr>
+          <th>Project Name</th>
+          <th>Project URL</th>
+          <th>Project URl-Type</th>
+          <th>Project Request-Body</th>
+        </tr>
+        
+        <tr>
+          <td>Post-Api</td>
+          <td>http://localhost:8081/postRequest </td>
+          <td>POST</td>
+          <td>
+            {
+              "user": {
+                "name": "ketul Patel",
+                "email": "p"
+              }
+            }
+          </td>
+        </tr>
+        
+        <tr>
+          <td>Call-Post-Api</td>
+          <td>http://localhost:8082?name=ketul&email=pketul@gmail.com</td>
+          <td>GET</td>
+          <td></td>
+        </tr>
+</table>
