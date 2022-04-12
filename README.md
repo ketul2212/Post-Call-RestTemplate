@@ -1,17 +1,6 @@
 # Post-Call-RestTemplate
 Post Call with RestTemplate
 
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
 #<b>Information Table</b><br/>
 <table border="2" style="border-collapse: collapse;">
         <tr>
@@ -22,26 +11,23 @@ Post Call with RestTemplate
         </tr>
         
         <tr>
-          <td>Post-Api</td>
-          <td>http://localhost:8081/postRequest </td>
-          <td>POST</td>
-          <td>
+          <th>Post-Api</th>
+          <th>http://localhost:8081/postRequest </th>
+          <th>POST</th>
+          <th>
             {
               "user": {
                 "name": "ketul Patel",
                 "email": "p"
               }
             }
-          </td>
+          </th>
         </tr>
         
         <tr>
-          <td>Call-Post-Api</td>
-          <td>http://localhost:8082?name=ketul&email=pketul@gmail.com</td>
-          <td>GET</td>
-          <td></td>
+          <th>Call-Post-Api</th>
+          <th>http://localhost:8082?name=ketul&email=pketul@gmail.com</th>
+          <th>GET</th>
+          <th></th>
         </tr>
 </table>
-
-        </body>
-</html>
