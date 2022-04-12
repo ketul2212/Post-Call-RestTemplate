@@ -9,7 +9,9 @@ Post Call with RestTemplate
           <th>Project URl-Type</th>
           <th>Project Request-Body</th>
         </tr>
-        
+</table>
+
+<table>
         <tr>
           <th>Post-Api</th>
           <th>http://localhost:8081/postRequest </th>
@@ -30,4 +32,5 @@ Post Call with RestTemplate
           <th>GET</th>
           <th></th>
         </tr>
-</table>
+        
+        </table>
