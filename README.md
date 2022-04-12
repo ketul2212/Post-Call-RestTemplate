@@ -13,24 +13,24 @@ Post Call with RestTemplate
 
 <table>
         <tr>
-          <th>Post-Api</th>
-          <th>http://localhost:8081/postRequest </th>
-          <th>POST</th>
-          <th>
+          <td>Post-Api</td>
+          <td>http://localhost:8081/postRequest</td>
+          <td>POST</td>
+          <td>
             {
               "user": {
                 "name": "ketul Patel",
                 "email": "p"
               }
             }
-          </th>
+          </td>
         </tr>
-        
+ </table>
+ <table>
         <tr>
-          <th>Call-Post-Api</th>
-          <th>http://localhost:8082?name=ketul&email=pketul@gmail.com</th>
-          <th>GET</th>
-          <th></th>
+          <td>Call-Post-Api</td>
+          <td>http://localhost:8082?name=ketul&email=pketul@gmail.com</td>
+          <td>GET</td>
+          <td></td>
         </tr>
-        
-        </table>
+ </table>
